@@ -29,8 +29,8 @@ export const PROFILE = {
 
     github: "https://github.com/JohnGPaulIV",
     linkedin: "https://www.linkedin.com/in/johngpaul/",
+    instagram: "https://www.instagram.com/jgp.dev/",
     email: "john@jgpiv.com",
-
     // Keep this only if you actually use it professionally.
     x: "https://x.com/jgp.dev",
 
