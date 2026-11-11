@@ -1,1 +1,0 @@
-{"version":3,"file":"identifier.d.ts","sourceRoot":"","sources":["../../../src/lib/shared/identifier.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,CAAC,EAAE,MAAM,KAAK,CAAC;AACxB,OAAO,KAAK,EAAE,KAAK,EAAE,MAAM,YAAY,CAAC;AAExC,MAAM,MAAM,IAAI,GAAG,KAAK,CAAC,MAAM,EAAE,MAAM,CAAC,CAAC;AAIzC,wBAAgB,MAAM,CAAC,KAAK,EAAE,OAAO,GAAG,KAAK,IAAI,IAAI,CAEpD;AAED,eAAO,MAAM,UAAU,iDAIkC,CAAC"}
