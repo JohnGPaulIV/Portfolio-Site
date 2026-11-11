@@ -34,7 +34,7 @@ export const PROFILE = {
     // Keep this only if you actually use it professionally.
     x: "https://x.com/jgp.dev",
 
-    resume: "/resume.pdf",
+    resume: "/Resume.pdf",
     location: "Harrisonburg, VA",
 };
 
@@ -132,7 +132,7 @@ export const PROJECTS = [
         github: "https://github.com/JohnGPaulIV/daubert-platform-showcase",
 
         // Add this only if you want recruiters visiting the live platform.
-        demo: "",
+        demo: null,
     },
 
     {
@@ -154,7 +154,7 @@ export const PROJECTS = [
         ],
 
         github: "https://github.com/JohnGPaulIV/virtual-memory-simulator/commit/e9703303792c34aa6e09c397dbf85f14b2a5f80a",
-        demo: "",
+        demo: null,
     },
 
     {
@@ -200,7 +200,7 @@ export const PROJECTS = [
         ],
 
         github: "https://github.com/JohnGPaulIV/jmu-dining-navigator",
-        demo: "",
+        demo: null,
     },
 
     {
@@ -222,7 +222,7 @@ export const PROJECTS = [
         ],
 
         github: "https://github.com/JohnGPaulIV/dukesh",
-        demo: "",
+        demo: null,
     },
 
     /*
@@ -278,7 +278,7 @@ export const TIMELINE = [
 
         points: [
             "Relevant coursework: Software Engineering, Data Structures & Algorithms, Computer Systems, Database Systems, Web Development, Data Analytics.",
-            "Honors: President’s List and Dean’s List.",
+            "Honors: President's List and Dean's List.",
         ],
     },
 

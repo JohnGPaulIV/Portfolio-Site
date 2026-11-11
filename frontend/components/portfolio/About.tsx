@@ -3,7 +3,7 @@ import profile from "@/public/headshot.jpeg";
 import { Reveal, SectionHeading } from "@/components/portfolio/Reveal";
 
 const facts = [
-    { label: "Studing", value: "B.S. Computer Science, JMU" },
+    { label: "Studying", value: "B.S. Computer Science, JMU" },
     { label: "Based in", value: "Harrisonburg, VA" },
     { label: "Currently learning", value: "Operating Systems, Machine Learning & Full-Stack Development" },
     { label: "Outside the terminal", value: "Watching TV (Current Show: Lanterns), Spending time with loved ones" },
@@ -34,7 +34,7 @@ export function About() {
                         <Reveal delay={0.1}>
                             <p className="text-lg leading-relaxed text-muted-foreground">
                                 I'm a Computer Science student at{" "}
-                                <span className="text-foreground">James Madison University</span>{" "}
+                                <span className="text-primary font-medium">James Madison University</span>{" "}
                                 who began my coding journey at 8 years old creating my own Minecraft mods in Java
                                 and never really stopped. Since then I've spent my time turning class projects, late-night ideas, and
                                 currently a start-up in which I am co-founder and CTO, Daubert, into things people can actually use

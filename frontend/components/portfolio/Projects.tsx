@@ -80,7 +80,7 @@ export function Projects() {
                                                     target="_blank"
                                                     rel="noreferrer"
                                                     aria-label={`${p.title} Github repository`}
-                                                    className="grid size-8 place-items-center rounded-lg border border-border text-muted-foreground transition-colors hover:border-primary hover:text-primary"
+                                                    className={`${p.github === null && "invisible"} grid size-8 place-items-center rounded-lg border border-border text-muted-foreground transition-colors hover:border-primary hover:text-primary`}
                                                 >
                                                     <SiGithub className="size-4" />
                                                 </a>
@@ -89,7 +89,7 @@ export function Projects() {
                                                     target="_blank"
                                                     rel="noreferrer"
                                                     aria-label={`${p.title} live demo`}
-                                                    className={`${p.title !== null ? "" : "invisible"} grid size-8 place-items-center rounded-lg border border-border text-muted-foreground transition-colors hover:border-primary hover:text-primary`}
+                                                    className={`${p.demo === null && "invisible"} grid size-8 place-items-center rounded-lg border border-border text-muted-foreground transition-colors hover:border-primary hover:text-primary`}
                                                 >
                                                     <ArrowUpRight className="size-4" />
                                                 </a>
