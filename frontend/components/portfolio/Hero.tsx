@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { motion } from "motion/react";
 
 import { ArrowDown, Download, Mail } from "lucide-react";
-import { SiGithub, SiX } from "@icons-pack/react-simple-icons";
+import { SiGithub, SiInstagram, SiX } from "@icons-pack/react-simple-icons";
 import { Linkedin } from "@/components/ui/icons";
 
 import { PROFILE } from "./data";
@@ -46,7 +46,8 @@ const socials = [
     { href: PROFILE.github, label: "GitHub", Icon: SiGithub },
     { href: PROFILE.linkedin, label: "LinkedIn", Icon: Linkedin },
     { href: `mailto:${PROFILE.email}`, label: "Email", Icon: Mail },
-    { href: PROFILE.x, label: "X", Icon: SiX },
+    { href: PROFILE.instagram, label: "Instagram", Icon: SiInstagram },
+    // { href: PROFILE.x, label: "X", Icon: SiX },
 ];
 
 export function Hero() {

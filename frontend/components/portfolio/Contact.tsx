@@ -3,6 +3,7 @@ import { useState, type FormEvent } from "react";
 import { Mail, Send } from "lucide-react";
 import { SiGithub, SiX } from "@icons-pack/react-simple-icons";
 import { Linkedin } from "@/components/ui/icons";
+import { SiInstagram } from "@icons-pack/react-simple-icons";
 import { toast } from "sonner";
 import { PROFILE } from "./data";
 import { Reveal, SectionHeading } from "@/components/portfolio/Reveal";
@@ -12,7 +13,8 @@ const socials = [
     { href: PROFILE.github, label: "Github", Icon: SiGithub },
     { href: PROFILE.linkedin, label: "LinkedIn", Icon: Linkedin },
     { href: `mailto:${PROFILE.email}`, label: "Email", Icon: Mail },
-    { href: PROFILE.x, label: "X / Twitter", Icon: SiX },
+    { href: PROFILE.x, label: "Instagram", Icon: SiInstagram }
+    // { href: PROFILE.x, label: "X / Twitter", Icon: SiX },
 ];
 
 export function Contact() {
